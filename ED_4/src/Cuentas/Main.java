@@ -1,10 +1,35 @@
+/**
+ * Paquete Cuentas.
+ */
 package Cuentas;
 
+/**
+ * 
+ * 
+ * @author Jorge Jiménez Juara
+ * @version 1.0
+ * @since 20/02/2022 
+ *
+ *
+ *<p>Clase principal. Contiene el método main, y el método operativa cuenta.</p>
+ *
+ */
+
 public class Main {
+	
+	/**
+	 * Método main del programa.
+	 * @param args X
+	 */
 
     public static void main(String[] args) {
         operativa_cuenta(0);
     }
+    
+    /**
+     * <p>Método operativa_cuenta</p>
+     * @param cantidad Devuelve cantidad. Parametro deprecated (no usado).
+     */
 
 	public static void operativa_cuenta(float cantidad) {
 		CCuenta cuenta1;
